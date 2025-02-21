@@ -1,0 +1,51 @@
+<DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <title>Encuesta</title>
+        <link rel="stylesheet" href="styles.css"/>
+      </head>
+    
+      <body>
+        <h1 id="title">Titulo de página</h1>
+        <p id="description">Pequeña explcación</p>
+        <form id="survey-form">
+          <label for="name" id="name-label">Introduce tu nombre:
+            <input id="name" name="name" type="text" placeholder="Tu nombre" required>
+          </label>
+          <label for="email" id="email-label">Introduce tu email:
+            <input id="email" name="email" type="email" placeholder="TuEmail@gmail.com" required>
+            </input>
+          </label>
+          <label for="number" id="number-label">Introduce un número  <input id="number" name="number" type="number" min="0" max="120" placeholder="Numerin">
+            </input>
+          </label>
+          <label for="desplegable">
+            <select id="dropdown" referrer="dropdown">
+              <option value="">Selecciona una opción</option>
+              <option value="1">Primera</option>
+              <option value="2">Segunda</option>
+            </select>
+          </label>
+          <label for="hombre">
+            <input type="radio" name="radio" value="man" checked>Hombre</input>
+          </label>
+          <label for="mujer">
+            <input type="radio" name="radio" value="woman">Mujer</input>
+          </label>
+    
+          <label for="gustos">
+            <input id="gustos" type="checkbox" value="1">Futbol</input>
+            <input id="gustos" type="checkbox" value="2">Cine</input>
+            <input id="gustos" type="checkbox" value="3">Comida</input>
+            <input id="gustos" type="checkbox" value="4">Lectura</input>
+          </label>
+          <label for="comentarios">
+            <textarea id="comentarios" type="textarea" placeholder="Comentarios adicionales">Comentarios adicionales</input>
+          </textarea>
+    
+          <input id="submit" type="submit" value="submit"</input>
+    
+        </form>
+      </body>
+    </html>
